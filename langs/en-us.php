@@ -65,7 +65,7 @@ $s['tHeadArchitectures'] = 'Architectures';
 $s['latestPublicRelease'] = 'Latest Public Release build';
 $s['latestPublicReleaseSub'] = 'Latest updated build for regular users.';
 $s['latestDevRelease'] = 'Latest Dev Channel build';
-$s['latestDevReleaseSub'] = 'Somewhat unreliable builds with the latest features.<br>Ideal for highly technical users.';
+$s['latestDevReleaseSub'] = 'Somewhat unreliable builds with new ideas and long lead features.<br>Ideal for enthusiasts.';
 $s['latestBetaRelease'] = 'Latest Beta Channel build';
 $s['latestBetaReleaseSub'] = 'Reliable builds with most upcoming features available.<br>Ideal for early adopters.';
 $s['latestRPRelease'] = 'Latest Release Preview build';
@@ -77,6 +77,8 @@ $s['fetchLatest'] = 'Fetch the latest build';
 $s['fetchLatestSub'] = 'Retrieve the latest build information from Windows Update servers.';
 $s['newlyAdded'] = 'Recently added builds';
 $s['dateAdded'] = 'Date added';
+$s['latestCanaryRelease'] = 'Latest Canary Channel build';
+$s['latestCanaryReleaseSub'] = 'Somewhat unstable builds with latest platform changes and early features.<br>Ideal for highly technical users.';
 
 //newbuild.php
 $s['newBuild'] = 'New build';
@@ -116,7 +118,7 @@ $s['selectLangInfoText1'] = 'Click the <i>Next</i> button to select the desired 
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe and Cumulative updates can be found in the <i>All languages</i> language.';
 $s['allLangsWarn'] = 'The <i>All languages</i> option does not support edition selection.';
 $s['clickNextToOpenFindFiles'] = 'Click the <i>Next</i> button to open the page, which allows finding files.';
-$s['noLangsAvailable'] = 'There are no languages available for this build.<br>This build cannot be converted to an ISO image.<br>See the <a href="https://github.com/uup-dump/website/blob/master/FAQ.md">FAQ</a> for details.';
+$s['noLangsAvailable'] = 'There are no languages available for this build.<br>This build cannot be converted to an ISO image.<br>See the FAQ for details.';
 $s['browseFiles'] = 'Browse files';
 $s['browseFilesDesc'] = 'Quickly browse files in selected build';
 $s['searchFiles'] = 'Search files';
@@ -208,8 +210,8 @@ $s['arm64Warning2022b'] = '<p>This build is only compatible with:</p><ul><li>Sur
 //Error messages
 $s['error_ERROR'] = 'Generic error.';
 $s['error_UNSUPPORTED_API'] = 'Installed API version is not compatible with this version of UUP dump.';
-$s['error_NO_FILEINFO_DIR'] = 'The <i>fileinfo</i> directory does not exist.';
-$s['error_NO_BUILDS_IN_FILEINFO'] = 'The <i>fileinfo</i> database does not contain any build.';
+$s['error_NO_FILEINFO_DIR'] = 'The (fileinfo) directory does not exist.';
+$s['error_NO_BUILDS_IN_FILEINFO'] = 'The (fileinfo) database does not contain any build.';
 $s['error_SEARCH_NO_RESULTS'] = 'No items found for the performed query.';
 $s['error_UNKNOWN_ARCH'] = 'Unknown processor architecture.';
 $s['error_UNKNOWN_RING'] = 'Unknown channel.';
@@ -234,7 +236,7 @@ $s['error_KEY_NOT_EXISTS'] = 'Specified key does not exist in update information
 $s['error_UNSPECIFIED_UPDATE'] = 'Update ID was not specified.';
 $s['error_INCORRECT_ID'] = 'Specified Update ID is incorrect. Please make sure that the specified Update ID is correct.';
 $s['error_RATE_LIMITED'] = 'You are being rate limited. Please try again in a few seconds.';
-$s['error_UNSPECIFIED_VE'] = 'You have not selected any additional editions. If do not wish to create additional editions, please use the <i>Download using aria2 and convert</i> option.';
+$s['error_UNSPECIFIED_VE'] = 'You have not selected any additional editions. If do not wish to create additional editions, please use the (Download using aria2 and convert) option.';
 $s['error_VE_UNAVAILABLE'] = 'Additional editions are not supported for this selection.';
 $s['error_INVALID_PAGE'] = 'Specified page is invalid';
 $s['errorNoMessage'] = 'Error message unavailable.';
@@ -282,6 +284,7 @@ $s['lang_zh-hk'] = 'Chinese (Hong Kong)';
 $s['lang_zh-tw'] = 'Chinese (Traditional)';
 
 //Channels
+$s['channel_canary'] = 'Canary Channel';
 $s['channel_skipAhead'] = 'Skip Ahead';
 $s['channel_dev'] = 'Dev Channel';
 $s['channel_beta'] = 'Beta Channel';

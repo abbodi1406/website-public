@@ -11,7 +11,7 @@ Authors: vanja-san
 
 //Language information
 $s['code'] = 'ru-RU';
-$s['timeZone'] = 'Asia/Novosibirsk'; //Supported timezones: https://www.php.net/manual/en/timezones.php
+$s['timeZone'] = 'Europe/Moscow'; //Supported timezones: https://www.php.net/manual/en/timezones.php
 
 //shared strings
 $s['uupdump'] = 'UUP dump';
@@ -77,6 +77,16 @@ $s['fetchLatest'] = 'Получить последнюю сборку';
 $s['fetchLatestSub'] = 'Получение последней информации о сборке с серверов обновления Windows.';
 $s['newlyAdded'] = 'Недавно добавленные сборки';
 $s['dateAdded'] = 'Дата добавления';
+
+//newbuild.php
+$s['newBuild'] = 'Новая сборка';
+$s['addNewBuild'] = 'Добавить новую сборку';
+$s['selectOptions'] = 'Выбрать параметры';
+$s['newBuildNextText'] = 'Нажмите кнопку <i>Далее</i>, чтобы начать поиск с указанными параметрами.';
+$s['newBuildUsing'] = 'Использование этой страницы';
+$s['newBuildUsingText'] = 'Эта страница предназначена для опытных пользователей, которые хотят добавить сборку, не найденную на сайте. Если вы хотите использовать один из наиболее часто используемых параметров, воспользуйтесь одним из <i>быстрых параметров</i>, расположенных на главной странице.';
+$s['optionsNotice'] = 'Уведомление параметров';
+$s['optionsNoticeText'] = 'Параметры приведённые здесь, настраивают то, как базовый клиент центра обновления Windows сообщает о себе серверам Microsoft. Очень важно установить их правильно, иначе будет ошибка.';
 
 //known.php
 $s['browseKnown'] = 'Просмотр извеcтных сборок';
@@ -192,6 +202,7 @@ $s['sizeOfShownFiles'] = 'Размер показанных файлов: %s'; /
 $s['error'] = 'Ошибка';
 $s['requestNotSuccessful'] = 'Запрос не удался';
 $s['anErrorHasOccurred'] = 'При попытке обработать ваш запрос произошла ошибка.';
+$s['arm64Warning2022h'] = 'Это сборка для ARM64';
 $s['arm64Warning'] = 'Эта сборка <b>ARM64</b>, которая <b>не совместима с распространёнными процессорами Intel/AMD</b>.<br>Если вы уверены, что ваше целевое устройство имеет процессор <b>ARM64</b> и вы не спутали его с <b>AMD64</b>, то можете смело продолжать.';
 
 //Error messages

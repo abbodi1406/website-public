@@ -111,7 +111,7 @@ $s['selectLangInfoText1'] = 'Cliquea <i>Siguiente</i> para seleccionar la edici�
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe y las actualizaciones acumulativas pueden encontrarse en la opción <i>Todos los idiomas</i>.';
 $s['allLangsWarn'] = 'La opción <i>Todos los idiomas</i> no soporta selección de edición.';
 $s['clickNextToOpenFindFiles'] = 'Cliquea <i>Siguiente</i> para abrir la página que te permitirá buscar los archivos.';
-$s['noLangsAvailable'] = 'No hay idiomas disponibles para esta compilación.<br>No se puede crear un ISO con esta compilación.<br>Revisa las <a href="https://github.com/uup-dump/website/blob/master/FAQ.md">FAQ</a> para obtener más detalles.';
+$s['noLangsAvailable'] = 'No hay idiomas disponibles para esta compilación.<br>No se puede crear un ISO con esta compilación.<br>Revisa las <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md">FAQ</a> para obtener más detalles.';
 $s['browseFiles'] = 'Examinar archivos';
 $s['browseFilesDesc'] = 'Examina rápidamente los archivos en la compilación seleccionada';
 $s['searchFiles'] = 'Buscar archivos';

@@ -138,7 +138,8 @@ if NOT EXIST %a7z% goto :NO_FILE_ERROR
 if NOT EXIST %uupConv% goto :NO_FILE_ERROR
 
 echo Extracting UUP converter...
-"%a7z%" -x!ConvertConfig.ini -y x "%uupConv%" >NUL
+if NOT EXIST CustomAppsList.txt "%a7z%" -x!ConvertConfig.ini -y x "%uupConv%" >NUL
+if EXIST CustomAppsList.txt "%a7z%" -x!ConvertConfig.ini -x!CustomAppsList.txt -y x "%uupConv%" >NUL
 echo.
 $downloadapp
 :DOWNLOAD_UUPS

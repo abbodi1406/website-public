@@ -6,7 +6,7 @@ Fordítási információk:
 A nyelv angol neve: Hungarian (Hungary)
 A nyelv helyi neve: Magyar (Magyarország)
 A nyelv kódja: hu-HU
-Fordította: Fowler https://forums.mydigitallife.net/members/fowler.355408/
+Authors: Fowler https://forums.mydigitallife.net/members/fowler.355408/
 */
 
 //Language information
@@ -44,47 +44,66 @@ $s['unknown'] = 'Ismeretlen';
 $s['home'] = 'Kezdőlap';
 $s['downloads'] = 'Letöltések';
 $s['lightMode'] = 'Világos mód';
+$s['faq'] = 'GyIK';
 $s['darkMode'] = 'Sötét mód';
 $s['sourceCode'] = 'Forrás kód';
 $s['menu'] = 'Menü';
 $s['websiteDesc'] = 'Töltse le UUP fájlokat a Windows Update kiszolgálókról könnyedén. Ez a projekt nem áll kapcsolatban a Microsoft Corporation céggel.';
 $s['notAffiliated'] = 'Ez a projekt nem áll kapcsolatban a Microsoft Corporation céggel. A Windows a Microsoft Corporation bejegyzett védjegye.';
 $s['copyright'] = '© %d %s és közreműködők.'; //© 2019 whatever127 és közreműködők.
+$s['copyrightNew'] = '© %d UUP dump szerzők és közreműködők.';
 $s['selectLanguage'] = 'Kérjük, válassza ki a nyelvet';
+$s['uupDumpDesc'] = 'Az "UUP dump lehetővé teszi az Unified Update Platform fájlok, például a Windows Insider frissítések letöltését közvetlenül a Windows Update-ről.';
+$s['uupDumpDescSub'] = '%s az UUP dumpon. Az UUP dump segítségével közvetlenül a Windows Update-ről tölthet le Unified Update Platform fájlokat, például Windows Insider frissítéseket.'; //Select language for Windows 11 Insider Preview 25188.1000 (rs_prerelease) amd64 on UUP dump. Az UUP dump segítségével közvetlenül a Windows Update-ről tölthet le Unified Update Platform fájlokat, például Windows Insider frissítéseket..
 
 //index.php
 $s['slogan'] = 'Töltse le UUP fájlokat a Windows Update kiszolgálókról könnyedén.';
+$s['quickOptions'] = 'Gyors választási lehetőségek';
+$s['tHeadReleaseType'] = 'Kiadás típusa';
+$s['tHeadDescription'] = 'Leírás';
+$s['tHeadArchitectures'] = 'Architektúrák';
+$s['latestPublicRelease'] = 'Legújabb nyilvános kiadás';
+$s['latestPublicReleaseSub'] = 'Legfrissebb frissített kiadás a rendszeres felhasználók számára.';
+$s['latestDevRelease'] = 'A fejlesztői csatorna legújabb verziója';
+$s['latestDevReleaseSub'] = 'Kissé megbízhatatlanul kiadások a legújabb funkciókkal.<br>Ideális a magas technikai felkészültségű felhasználók számára.';
+$s['latestBetaRelease'] = 'A béta-csatorna legújabb kiadása';
+$s['latestBetaReleaseSub'] = 'Megbízható buildek a legtöbb hamarosan elérhető funkcióval.<br>Ideális a korai alkalmazók számára.';
+$s['latestRPRelease'] = 'Legújabb előnézeti kiadás';
+$s['latestRPReleaseSub'] = 'Megbízható buildek a következő kiadás előzetes megtekintéséhez.<br>Ideális a közelgő kiadások kipróbálásához.';
 $s['advOptions'] = 'Haladó beállítások';
 $s['browseBuilds'] = 'Keressen az ismert építmények listájából';
-$s['browseBuildsSub'] = 'Válassza ki a helyi adatbázisból a  kívánt építményt, és töltse le.';
-$s['fetchLatest'] = 'Töltse le a legújabb építményt';
-$s['fetchLatestSub'] = 'Töltse le a legfrissebb építményt állományait a Windows Update kiszolgálókról.';
-$s['newlyAdded'] = 'Az újonnan hozzáadott építmények';
+$s['browseBuildsSub'] = 'Válasszon egy már ismert kiadást, és töltse le.';
+$s['fetchLatest'] = 'Töltse le a legújabb kiadást';
+$s['fetchLatestSub'] = 'A legfrissebb összeállítási információk lekérése a Windows Update kiszolgálókról.';
+$s['newlyAdded'] = 'Nemrég hozzáadott összeállítások';
 $s['dateAdded'] = 'Hozzáadás dátuma';
+$s['latestCanaryRelease'] = 'Legújabb Canary Channel build';
+$s['latestCanaryReleaseSub'] = 'Kissé instabil buildek a legújabb platformváltozásokkal és korai funkciókkal.<br>Ideális a magasan képzett felhasználók számára.';
+
+//newbuild.php
+$s['newBuild'] = 'Új build';
+$s['addNewBuild'] = 'Új build hozzáadása';
+$s['selectOptions'] = 'Opciók kijelölése';
+$s['newBuildNextText'] = 'Kattintson a <i>Következő</i> gombra a keresés megkezdéséhez a megadott beállításokkal.';
+$s['newBuildUsing'] = 'Az oldal használatával';
+$s['newBuildUsingText'] = 'Ezt az oldalt a haladó felhasználóknak szánjuk, akik olyan buildeket szeretnének hozzáadni, amely nem található meg a weboldalon. Amennyiben a leggyakrabban használt paraméterek valamelyikét szeretné használni, kérjük, használja a kezdőlapon található <i>Gyors lehetőségek</i> egyikét.';
+$s['optionsNotice'] = 'Lehetőségek szóló értesítés';
+$s['optionsNoticeText'] = 'Az itt található beállítások azt konfigurálják, hogy az alapul szolgáló Windows Update ügyfél hogyan jelentse magát a Microsoft-kiszolgálóknak. Nagyon fontos, hogy ezeket megfelelően állítsa be, különben hibaüzenetet kap.';
 
 //known.php
 $s['browseKnown'] = 'Keresse meg az ismert építményeket';
-$s['chooseBuild'] = 'Válassza az építményt';
+$s['chooseBuild'] = 'Válassza ki a összeállítást';
 $s['weFoundBuilds'] = 'A lekérdezés során <b>%d</b> építményeket találtuk.'; //A lekérdezés során <b>692</b> építményeket találtuk.
-
-//latest.php
-$s['latestFetchLatest'] = 'Töltse le a legújabb verziót';
-$s['latestTestingOnly'] = 'Csak tesztelési célokra';
-$s['latestTestingOnlyWarn'] = '<b>Ez az oldal csak tesztelési célokat szolgál.</b> Az ezen az oldalon beolvasott olyan építményeket, amelyeket a háttérkiszolgáló nem dolgozott fel, tartalékcsomagokkal fogjuk biztosítani, amelyek hiányos eredményeket adhatnak. Ha már ismert építményt szeretne letölteni, akkor használja az ismert építmény oldalt.';
-$s['latestDoYouWantKnown'] = 'Folytatni szeretné az ismert építmények listájának böngészését?';
-$s['chooseOptions'] = 'Válasszon a lehetőségek közül';
-$s['buildOfPretendedClient'] = 'A Windows Update ügyfelek építményeinek száma';
-$s['editionOfPretendedClient'] = 'A modellrendszer kiadása';
-$s['skipAheadLabel'] = 'Ugrás előre';
-$s['skipAheadOption'] = 'Használja a "Skip ahead flight - Ugrás előre" opciót (csak Insider Gyors gyűrű esetén)';
-$s['fetchUpdates'] = 'Frissítések lekérése';
-$s['fetchUpdatesInfo'] = 'Kattintson a <i>Frissítések lekérése</i> gombra, hogy kérését elküldje a Windows Update kiszolgálóknak.';
+$s['sortByDate'] = 'Az eredmények rendezése a hozzáadás dátuma szerint';
+$s['nextPage'] = 'Következő';
+$s['prevPage'] = 'Előző';
+$s['pageOf'] = '%d oldal %d-ből %d'; //1. oldal a 48-ból
 
 //fetchupd.php
-$s['responseFromServer'] = 'Válasz a szervertől';
-$s['foundUpdates'] = ' %d frissítést találtam'; //%d frissítést találtam
-$s['foundTheseUpdates'] = 'A következő frissítések találhatók. A folytatáshoz kattintson a kívánt frissítés nevére.';
-$s['buildNumber'] = 'Az építmény száma: %s'; //Az építmény száma: 18890.1000
+$s['responseFromServer'] = 'Kiszolgáló válasza';
+$s['foundUpdates'] = 'Talált %d frissítés(ek)'; //Talált 1 frissítés(ek)
+$s['foundTheseUpdates'] = 'A következő frissítéseket találtuk. A folytatáshoz kattintson a kívánt frissítés nevére.';
+$s['buildNumber'] = 'Build száma: %s'; //Build száma: 18890.1000
 
 //selectlang.php
 $s['selectLangFor'] = 'Válasszon a nyelvek közül %s'; //Válasszon a nyelvek közül Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
@@ -96,14 +115,16 @@ $s['allFiles'] = 'Minden fájl';
 $s['wubOnly'] = 'Csak a "WindowsUpdateBox"-ban lévők';
 $s['updateOnly'] = 'Csak frissítés';
 $s['selectLangInfoText1'] = 'Kattintson a <i>Következő</i> gombra a letölthető kiadás kiválasztásához.';
-$s['selectLangInfoText2'] = 'A WindowsUpdateBox.exe és a kumulatív frissítések az <i>Minden nyelv</i> nyelven találhatók..';
+$s['selectLangInfoText2'] = 'A WindowsUpdateBox.exe és a kumulatív frissítések a(z) <i>Minden nyelv</i> nyelvben találhatók.';
 $s['allLangsWarn'] = 'A <i>Minden nyelv</i> opció nem támogatja a kiadás kiválasztását.';
-$s['clickNextToOpenFindFiles'] = 'Kattintson a <i>Következő</i> gombra az oldal megnyitásához, amely lehetővé teszi a fájlok megtalálását.';
-$s['noLangsAvailable'] = 'Nincsenek rendelkezésre álló nyelvek erre építményre.';
+$s['clickNextToOpenFindFiles'] = 'Kattintson a <i>Következő</i> gombra az oldal megnyitásához, amely lehetővé teszi a fájlok keresését.';
+$s['noLangsAvailable'] = 'Ehhez a buildhez nem állnak rendelkezésre nyelvek.<br>Ezt a buildet nem lehet ISO-képre konvertálni.<br>A részletekért lásd a GYIK-et.';
 $s['browseFiles'] = 'Böngészés a fájlok között';
 $s['browseFilesDesc'] = 'Gyorsan keresheti a fájlokat a kiválasztott építményben';
 $s['searchFiles'] = 'Fájlok keresése';
-$s['toSearchForCUUseQuery'] = 'Összesített frissítések kereséséhez használja a <i>%s</i> keresési lekérdezést.'; //Összesített frissítések kereséséhez használja a <i>Windows10 KB</i> keresési lekérdezést.
+$s['toSearchForCUUseQuery'] = 'Összesítő frissítések kereséséhez használja a <i>%s</i> keresési lekérdezést.'; //Összesítő frissítések kereséséhez használja a <i>Windows10 KB</i> keresési lekérdezést.
+$s['updateNotProcessed'] = 'Az UUP dump még nem dolgozta fel az update\ metaadatait - ez automatikusan megtörténik %d percenként egyszer. Addig csak az update\ fájllistáját böngészheti.'; //UUP dump még nem dolgozta fel a frissítés metaadatait - ez automatikusan 30 percenként egyszer történik. Addig csak a frissítés fájllistáját böngészheti.
+$s['updateIsBlocked'] = 'Ez a frissítés ismert problémákat okoz, amelyek megakadályozzák a működő ISO létrehozását. Emiatt csak manuálisan böngészheti a fájlokat.';
 
 //selectedition.php
 $s['selectEditionFor'] = '%s kiadás kiválasztása'; //Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64, English (United States) kiadás kiválasztása
@@ -112,6 +133,7 @@ $s['chooseEditionDesc'] = 'Válasszon a kiadások közül';
 $s['allEditions'] = 'Minden kiadás';
 $s['selectEditionInfoText'] = 'Kattintson a <i>Következő</i> gombra a kiválasztott összegző oldal megnyitásához.';
 $s['additionalEditionsInfo'] = 'Ha szüksége van egy további kiadásra, amely megtalálható a jobb oldali táblázatban, válassza ki a szükséges kiadást, majd kattintson a <i>Következő</i> gombra. Az összefoglaló oldalon kiválaszthatja a kívánt kiadásokat a megfelelő letöltési lehetőség alatt.';
+$s['showHiddenEditions'] = 'Rejtett kiadások megjelenítése (nem ajánlott)';
 
 //download.php
 $s['summary'] = 'Összegzés';
@@ -120,12 +142,12 @@ $s['summaryFor'] = '%s összegzése'; //Összegzés: Windows 10 Insider Preview 
 $s['summaryOfSelection'] = 'A választás összefoglalása';
 $s['browseList'] = 'Keressen fájlokat a listából';
 $s['browseListDesc'] = 'Megnyitja az UUP készletben található fájlok listáját tartalmazó oldalt a kézi letöltéshez.';
-$s['aria2Opt1'] = 'Letöltés az "aria2" használatával';
-$s['aria2Opt1Desc'] = 'Könnyen letöltheti a kiválasztott UUP-készletet az aria2 használatával.';
+$s['aria2Opt1'] = 'Az UUP csomag letöltése';
+$s['aria2Opt1Desc'] = 'Könnyen letöltheti a kiválasztott UUP csomagot az aria2 használatával.';
 $s['aria2Opt2'] = 'Letöltés az "aria2" használatával és konvertálás';
-$s['aria2Opt2Desc'] = 'Könnyen letöltheti a kiválasztott UUP-készletet az aria2 használatával, és konvertálhatja ISO fájlba.';
+$s['aria2Opt2Desc'] = 'Könnyen letöltheti a kiválasztott UUP csomagot az aria2 használatával, és konvertálhatja ISO fájlba.';
 $s['aria2Opt3'] = 'Töltse le az aria2 használatával, konvertálja és adjon hozzá további kiadásokat';
-$s['aria2Opt3Desc'] = 'Könnyen letöltheti a kiválasztott UUP-készletet az aria2 használatával, konvertálhat, adhat hozzá további kiadásokat és végül létrehozhat ISO lemezkép-fájlt.';
+$s['aria2Opt3Desc'] = 'Könnyen letöltheti a kiválasztott UUP csomagot az aria2 használatával, konvertálhat, adhat hozzá további kiadásokat és végül létrehozhat ISO lemezkép-fájlt.';
 $s['jsRequiredToConf'] = 'Ennek az opciónak a konfigurálásához és használatához JavaScript szükséges.';
 $s['selAdditionalEditions'] = 'Válasszon további kiadásokat';
 $s['noAdditionalEditions'] = 'Ehhez a kiválasztáshoz nem állnak rendelkezésre további kiadások.';
@@ -147,6 +169,12 @@ $s['convOpt2'] = 'Integrálja a frissítéseket, ha elérhető (csak Windows kon
 $s['convOpt3'] = 'Futtassa a tisztítást a frissítések integrációja után (csak Windows konverter esetén)';
 $s['convOpt4'] = '.NET-keretrendszer 3.5 integrálása (csak Windows konverter esetén)';
 $s['startDownload'] = 'Hozzon létre letöltési csomagot';
+$s['legalCopeHarder'] = 'A <i>Letöltési csomag létrehozása</i> gombra kattintva Ön elfogadja a következőket:';
+$s['legalCope1'] = 'Az UUP dump által biztosított szkriptek segítségével létrehozott telepítési lemezképek csak <b>értékelési célokra</b> szolgálnak.';
+$s['legalCope2'] = 'A lemezképeket és azok telepítését a Microsoft Corporation semmilyen módon nem támogatja.';
+$s['legalCope3v2'] = '<b>A szerzők nem vállalnak felelősséget a weboldal helytelen használatából eredő károkért</b>.';
+$s['win1122h2OrLater'] = 'Windows 11, 22H2 vagy újabb verzió';
+$s['requiresWindows102004'] = 'Ehhez a buildhez a Windows 10 2004-es vagy újabb verziója szükséges az ISO megfelelő létrehozásához. A más platformokhoz készült szkriptek hibás ISO-t fognak kiadni.';
 
 //get.php
 $s['listOfFilesFor'] = 'Fájlok listája a(z) %s fájlhoz'; //Fájlok listája: Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
@@ -170,14 +198,14 @@ $s['fileRenamingScriptGenW'] = 'Átnevező szkript létrehozása (Windows)';
 $s['fileRenamingScriptGenL'] = 'Átnevező szkript létrehozása (Linux, macOS)';
 $s['searchForFiles'] = 'Fájlok keresése...';
 $s['weFoundFiles'] = '<b>%d</b> fájlokat találtunk a lekérdezéshez.'; //<b>692</b> fájlokat találtunk a lekérdezéséhez.
+$s['sizeOfShownFiles'] = 'A megjelenített fájlok mérete: %s'; //Megjelenített fájlok mérete: 2.86 GiB
 
 //Error pages
 $s['error'] = 'Hiba';
 $s['requestNotSuccessful'] = 'A kérelem nem sikerült';
 $s['anErrorHasOccurred'] = 'Hiba történt a kérés feldolgozása közben.';
-$s['generatedPackNotAvailable'] = 'A generált csomag nem érhető el';
-$s['generatedPackNotAvailableDesc'] = 'A frissítés, amelyet megpróbál letölteni, nem rendelkezik olyan generált csomaggal, amely teljes körű információt nyújt az elérhető nyelvekről, kiadásokról és fájlokról. A tartalék csomagot fogjuk használni, és előfordulhat, hogy nem biztosítja a helyes információkat. Ha a letöltés emiatt nem sikerül, várjon, amíg az automatikusan létrehozott csomag elérhetővé válik.';
-$s['arm64Warning'] = 'Olyan ARM64-összeállítást választott, amely <b>csak az ARM64-alapú eszközökkel kompatibilis</b> és nem működik szokásos Intel vagy AMD alapú PC-kkel. A <b>64 bites</b> számítógépeken használja a <b>amd64</b> készítményeket. A <b>32 bites</b> számítógépeknél kérjük, használja a <b>x86</b> készítményeket. Ha teljesen biztos abban, hogy a cél eszköz ARM64 alapú, akkor ezt az üzenetet biztonságosan figyelmen kívül hagyhatja.';
+$s['arm64Warning2022h'] = 'Ez egy ARM64 build';
+$s['arm64Warning2022b'] = '<p>Ez a build csak a következőkkel kompatibilis:</p><ul><li>Surface Pro X</li><li>Raspberry Pi</li><li>Apple Mac M1</li><li>más dicsőített mobiltelefonok</li></ul><p>UUP dump szerzők <i>nem rendelkeznek ezek közül egyikkel sem</i> és ezért <b>nem nyújtanak semmiféle támogatást.</b>.</p>';
 
 //Error messages
 $s['error_ERROR'] = 'Általános hiba.';
@@ -209,7 +237,9 @@ $s['error_UNSPECIFIED_UPDATE'] = 'A frissítési azonosítót (ID) nem adták me
 $s['error_INCORRECT_ID'] = 'A megadott frissítési azonosító helytelen. Ellenőrizze, hogy a megadott frissítési azonosító helyes-e.';
 $s['error_RATE_LIMITED'] = 'Ön elérte a letöltési határt, ezért korlátozva van. Kérjük, próbálja meg később.';
 $s['error_UNSPECIFIED_VE'] = 'You have not selected any additional editions. If do not wish to create additional editions, please use the <i>Download using aria2 and convert</i> option.';
-$s['errorNoMessage'] = 'A hibaüzenet nem érhető el.';
+$s['error_VE_UNAVAILABLE'] = 'További kiadások nem támogatottak ennél a kiválasztásnál.';
+$s['error_INVALID_PAGE'] = 'A megadott oldal érvénytelen';
+$s['errorNoMessage'] = 'Hibaüzenet nem elérhető.';
 
 //Languages
 $s['lang_ar-sa'] = 'Arabic (Saudi Arabia)';
@@ -252,3 +282,11 @@ $s['lang_uk-ua'] = 'Ukrainian';
 $s['lang_zh-cn'] = 'Chinese (Simplified)';
 $s['lang_zh-hk'] = 'Chinese (Hong Kong)';
 $s['lang_zh-tw'] = 'Chinese (Traditional)';
+
+//Channels
+$s['channel_canary'] = 'Canary Csatorna';
+$s['channel_skipAhead'] = 'Skip Ahead';
+$s['channel_dev'] = 'Dev Csatorna';
+$s['channel_beta'] = 'Beta Csatorna';
+$s['channel_releasepreview'] = 'Release Preview Csatorna';
+$s['channel_retail'] = 'Kiskereskedelmi';

@@ -111,7 +111,7 @@ $s['selectLangInfoText1'] = 'Apăsați pe butonul <i>Înainte</i> pentru a selec
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe și Actualizări cumulative pot fi găsite în <i>Toate limbile</i>.';
 $s['allLangsWarn'] = 'Opțiunea <i>Toate limbile</i> nu are suport pentru selectarea ediției.';
 $s['clickNextToOpenFindFiles'] = 'Apăsați pe butonul <i>Înainte</i> pentru a deschide pagina unde puteți găsi fișierele.';
-$s['noLangsAvailable'] = 'Nu sunt limbi disponibile pentru această compilare.<br> Această compilare nu poate fi convertită într-o imagine ISO. <br> Consultați <a href="https://github.com/uup-dump/website/blob/master/FAQ.md"> Întrebări frecvente </a> pentru detalii.';
+$s['noLangsAvailable'] = 'Nu sunt limbi disponibile pentru această compilare.<br> Această compilare nu poate fi convertită într-o imagine ISO. <br> Consultați <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md"> Întrebări frecvente </a> pentru detalii.';
 $s['browseFiles'] = 'Răsfoiți fișierele';
 $s['browseFilesDesc'] = 'Răsfoiți rapid fișierele în compilarea selectată';
 $s['searchFiles'] = 'Caută fișiere';

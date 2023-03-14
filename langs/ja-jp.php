@@ -111,7 +111,7 @@ $s['selectLangInfoText1'] = '<i>次へ</i>ボタンをクリックして、目�
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exeおよび累積的な更新プログラムは、<i>すべての言語</i>で提供されています。';
 $s['allLangsWarn'] = '<i>すべての言語</i>オプションでは、エディションの選択はサポートされていません。';
 $s['clickNextToOpenFindFiles'] = '<i>次へ</i>ボタンをクリックして、ファイルを検索できるページを開きます。';
-$s['noLangsAvailable'] = 'このビルドで使用できる言語はありません。<br>このビルドはISOイメージに変換できません。<br>詳細は <a href="https://github.com/uup-dump/website/blob/master/FAQ.md">FAQ</a> を参照してください。';
+$s['noLangsAvailable'] = 'このビルドで使用できる言語はありません。<br>このビルドはISOイメージに変換できません。<br>詳細は <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md">FAQ</a> を参照してください。';
 $s['browseFiles'] = 'ファイルを参照';
 $s['browseFilesDesc'] = '選択したビルドのファイルをすばやく参照する';
 $s['searchFiles'] = 'ファイルを検索';

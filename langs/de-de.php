@@ -114,7 +114,7 @@ $s['selectLangInfoText1'] = 'Klicken Sie auf die Schaltfläche <i>Weiter</i>, um
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe und Kumulatives Update finden Sie unter Sprache <i>Alle Sprachen</i>.';
 $s['allLangsWarn'] = 'Die Option <i>Alle Sprachen</i> unterstützt keine Editionsauswahl.';
 $s['clickNextToOpenFindFiles'] = 'Klicken Sie auf die Schaltfläche <i>Weiter</i>, um die Seite zu öffnen, die das Finden der Dateien ermöglicht.';
-$s['noLangsAvailable'] = 'Es sind keine Sprachen für diesen Build verfügbar.<br>Dieser Build kann nicht in ein ISO-Image konvertiert werden.<br>Siehe die <a href="https://github.com/uup-dump/website/blob/master/FAQ.md">FAQ</a> für Details.';
+$s['noLangsAvailable'] = 'Es sind keine Sprachen für diesen Build verfügbar.<br>Dieser Build kann nicht in ein ISO-Image konvertiert werden.<br>Siehe die <a target=_blank href="https://github.com/uup-dump-dev/website-public/blob/master/FAQ.md">FAQ</a> für Details.';
 $s['browseFiles'] = 'Dateien durchsuchen';
 $s['browseFilesDesc'] = 'Schnelles Durchsuchen von Dateien im ausgewählten Build';
 $s['searchFiles'] = 'Dateien suchen';
