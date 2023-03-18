@@ -63,9 +63,11 @@ $s['tHeadReleaseType'] = 'Tipo de Release';
 $s['tHeadDescription'] = 'Descrição';
 $s['tHeadArchitectures'] = 'Arquitetura';
 $s['latestPublicRelease'] = 'Recente Compilação de Lançamento Público';
-$s['latestPublicReleaseSub'] = 'Última Compilação Atualizada para usuários regulares.';
+$s['latestPublicReleaseSub'] = 'Recente Compilação Atualizada para usuários regulares.';
+$s['latestCanaryRelease'] = 'Recente compilação Lançada no Canal Canary';
+$s['latestCanaryReleaseSub'] = 'Estas são Compilações um tanto instáveis com as últimas alterações de plataforma e novos recursos que estão em estágios iniciais para aprovação.<br>Ideal para usuários altamente técnicos.';
 $s['latestDevRelease'] = 'Recente Compilação do Canal de Desenvolvimento';
-$s['latestDevReleaseSub'] = 'Compilações pouco confiáveis com os recursos mais recentes.<br>Ideal para usuários altamente técnicos.';
+$s['latestDevReleaseSub'] = 'Estas são Compilações pouco confiáveis com novas ideias e novos recursos são aprovados para desenvolvimento de longo prazo.<br>Ideal para entusiastas.';
 $s['latestBetaRelease'] = 'Recente Compilação do Canal Beta';
 $s['latestBetaReleaseSub'] = 'Compilações confiáveis com a maioria dos recursos futuros disponíveis.<br>Ideal para os usuários iniciantes.';
 $s['latestRPRelease'] = 'Recente Compilação de Prévias de Lançamento';
@@ -285,22 +287,10 @@ $s['lang_zh-hk'] = 'Chinês (Hong Kong)';
 $s['lang_zh-tw'] = 'Chinês (Tradicional)';
 
 //Channels
+$s['channel_canary'] = 'Canal Canary';
 $s['channel_skipAhead'] = 'Seguindo em frente - "Skip Ahead"';
 $s['channel_dev'] = 'Canal Dev';
 $s['channel_beta'] = 'Canal Beta';
 $s['channel_releasepreview'] = 'Canal Prévia de Lançamentos "Release Preview"';
 $s['channel_retail'] = 'Retail';
-
-//latest.php
-$s['latestFetchLatest'] = 'Pesquisar a compilação mais recente';
-$s['latestTestingOnly'] = 'Somente para teste';
-$s['latestTestingOnlyWarn'] = '<b> Esta página é fornecida apenas para testes. </ b> As compilações recuperadas por esta página que não foram processadas pelo servidor de back-end serão fornecidas usando os pacotes de fallback, que podem fornecer resultados incompletos. Se quiser fazer o download de uma compilação já conhecida, para obter a melhor experiência, use a página de compilações conhecidas.';
-$s['latestDoYouWantKnown'] = 'Gostaria de continuar a pesquisar na lista de compilações conhecidas?';
-$s['chooseOptions'] = 'Selecionar opções';
-$s['buildOfPretendedClient'] = 'Número da compilação do cliente pretendido do Windows Update';
-$s['editionOfPretendedClient'] = 'Edição do sistema pretendido';
-$s['skipAheadLabel'] = 'Skip ahead flight';
-$s['skipAheadOption'] = 'Use o flightl ahead flighting (apenas no Insider Fast)';
-$s['fetchUpdates'] = 'Pesquisar atualizações';
-$s['fetchUpdatesInfo'] = 'Clique no botão <i>Pesquisar atualizações</i> para enviar a sua solicitação para os servidores do Windows Update.';
 
