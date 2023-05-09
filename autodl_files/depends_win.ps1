@@ -70,6 +70,15 @@ if(-not (Test-Path -PathType Container -Path "files")) {
 
 foreach($file in $files) {
     try {
+        if(Test-Path -PathType Leaf -Path "files\$file") {
+            Write-Verbose "File already exists: $file"
+            if(Test-Hash -File $file -Hash $hashes[$file]) {
+                Write-Host -BackgroundColor Black -ForegroundColor Cyan "Hash matches for $file"
+                continue
+            } else {
+                Write-Warning "Hash mismatch for existing $file"
+            }
+        }
         Retrieve-File -File $file -Url $urls[$file]
     } catch {
         Write-Host "Failed to download $file"
