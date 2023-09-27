@@ -44,6 +44,8 @@ function createUupConvertPackage(
     $currDir = dirname(__FILE__).'/..';
     $time = gmdate("Y-m-d H:i:s T", time());
 
+    $sha1 = $url.'&sha1=1';
+
     $downloadapp = "";
     if(!empty($app)) {
         $downloadapp = <<<TEXT
@@ -160,6 +162,7 @@ if NOT [%DETECTED_ERROR%] == [] (
 echo Attempting to download files...
 "%aria2%" --no-conf --log-level=info --log="aria2_download.log" -x16 -s16 -j5 -c -R -d"%destDir%" -i"%aria2Script%"
 if %ERRORLEVEL% GTR 0 goto :DOWNLOAD_UUPS & exit /b 1
+"%aria2%" --no-conf --log-level=info --log="aria2_download.log" --allow-overwrite=true --auto-file-renaming=false -d"%destDir%" "$sha1"
 
 if EXIST convert-UUP.cmd goto :START_CONVERT
 pause
@@ -301,6 +304,7 @@ DisableUpdatingUpgrade=0
 [Store_Apps]
 SkipApps     =0
 AppsLevel    =0
+StubAppsFull =0
 CustomList   =0
 
 [create_virtual_editions]
@@ -386,6 +390,8 @@ aria2c --no-conf --log-level=info --log="aria2_download.log" -x16 -s16 -j25 -c -
 TEXT;
     }
 
+    $sha1 = $url.'&sha1=1';
+
     $downloadapp = "";
     if(!empty($app)) {
         $downloadapp = <<<TEXT
@@ -456,6 +462,7 @@ if NOT [%DETECTED_ERROR%] == [] (
 echo Attempting to download files...
 $ariacmd
 if %ERRORLEVEL% GTR 0 goto :DOWNLOAD_UUPS & exit /b 1
+"%aria2%" --no-conf --log-level=info --log="aria2_download.log" --allow-overwrite=true --auto-file-renaming=false -d"%destDir%" "$sha1"
 
 pause
 goto EOF

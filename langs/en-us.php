@@ -175,6 +175,7 @@ $s['legalCope2'] = 'The images and their deployments are <b>not supported</b> in
 $s['legalCope3v2'] = '<b>The authors are not liable for any damages</b> caused by a misuse of the website';
 $s['win1122h2OrLater'] = 'Windows 11, version 22H2 or later';
 $s['requiresWindows102004'] = 'This build requires using Windows 10, version 2004 or later for the ISO to be properly created. Scripts for other platforms will output a broken ISO.';
+$s['aria2Opt4'] = 'Create download package for updates only';
 
 //get.php
 $s['listOfFilesFor'] = 'List of files for %s'; //List of files for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
@@ -284,6 +285,7 @@ $s['lang_zh-hk'] = 'Chinese (Hong Kong)';
 $s['lang_zh-tw'] = 'Chinese (Traditional)';
 
 //Channels
+$s['channel_msit'] = 'MSIT';
 $s['channel_canary'] = 'Canary Channel';
 $s['channel_skipAhead'] = 'Skip Ahead';
 $s['channel_dev'] = 'Dev Channel';

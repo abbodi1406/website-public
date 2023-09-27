@@ -175,6 +175,7 @@ $s['legalCope2'] = 'Microsoft Corporation <b>不以任何方式支持</b>映像�
 $s['legalCope3v2'] = '<b>作者不会对</b>因滥用本网站所<b>导致的任何损害负责</b>';
 $s['win1122h2OrLater'] = 'Windows 11，版本 22H2 及以上';
 $s['requiresWindows102004'] = '此版本需要使用 Windows 10 版本 2004 或更高版本才能正确创建 ISO。其他平台的脚本将会输出一个损坏的 ISO 文件。';
+$s['aria2Opt4'] = '仅为更新创建下载包';
 
 //get.php
 $s['listOfFilesFor'] = '%s 的文件列表'; //List of files for Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
@@ -284,6 +285,7 @@ $s['lang_zh-hk'] = '中文（香港）';
 $s['lang_zh-tw'] = '中文（繁体）';
 
 //Channels
+$s['channel_msit'] = 'MSIT';
 $s['channel_canary'] = 'Canary 渠道';
 $s['channel_skipAhead'] = 'Skip Ahead';
 $s['channel_dev'] = 'Dev 渠道';

@@ -115,10 +115,10 @@ $s['selLangFiles'] = 'Arquivos';
 $s['allFiles'] = 'Todos Arquivos';
 $s['wubOnly'] = 'Apenas WindowsUpdateBox';
 $s['updateOnly'] = 'Somente atualização';
-$s['selectLangInfoText1'] = 'Clique no botão <i>Próximo</i> para selecionar a edição que deseja baixar.';
+$s['selectLangInfoText1'] = 'Clique no botão <i>Avançar</i> para selecionar a edição que deseja baixar.';
 $s['selectLangInfoText2'] = 'WindowsUpdateBox.exe e Atualizações Cumulativas podem ser encontradas no idioma<i>Todos os Idiomas</i>.';
 $s['allLangsWarn'] = 'A opção <i>Todos os Idiomas</i> não suporta a seleção de edições.';
-$s['clickNextToOpenFindFiles'] = 'Clique no botão <i>Próximo</i> para abrir a página que permite encontrar os arquivos.';
+$s['clickNextToOpenFindFiles'] = 'Clique no botão <i>Avançar</i> para abrir a página que permite encontrar os arquivos.';
 //$s['noLangsAvailable'] = 'Não há idiomas disponíveis para esta compilação.<br>Esta compilação não pode ser convertida em uma imagem ISO.<br>Consulte <a target=_blank href="https://github. com/uup-dump-dev/website-public/blob/master/FAQ.md">FAQ</a> para detalhes.';
 $s['noLangsAvailable'] = 'Não há idiomas disponíveis para esta compilação.<br>Esta compilação não pode ser convertida em uma imagem ISO.<br>Consulte o Perguntas Frequntes "FAQ" para obter detalhes.';
 $s['browseFiles'] = 'Procurar arquivos';
@@ -133,8 +133,8 @@ $s['selectEditionFor'] = 'Selecione a edição para %s'; //Selecione a edição 
 $s['chooseEdition'] = 'Escolha a edição';
 $s['chooseEditionDesc'] = 'Escolha a sua edição desejada';
 $s['allEditions'] = 'Todas as edições';
-$s['selectEditionInfoText'] = 'Clique no botão <i>Próximo</i> para abrir a página com o resumo da sua seleção.';
-$s['additionalEditionsInfo'] = 'Se você precisar de uma edição adicional que pode ser encontrado na tabela à direita, selecione a edição requerida indicada e clique em <i>Próximo</i>. Na página de resumo, você poderá selecionar as edições adicionais desejadas na opção de download apropriado. ';
+$s['selectEditionInfoText'] = 'Clique no botão <i>Avançar</i> para abrir a página com o resumo da sua seleção.';
+$s['additionalEditionsInfo'] = 'Se você precisar de uma edição adicional que pode ser encontrado na tabela à direita, selecione a edição requerida indicada e clique em <i>Avançar</i>. Na página de resumo, você poderá selecionar as edições adicionais desejadas na opção de download apropriado. ';
 $s['showHiddenEditions'] = 'Mostrar edições ocultas (não recomendado)';
 
 //download.php
@@ -177,6 +177,7 @@ $s['legalCope2'] = 'As imagens e suas implantações <b>não são suportadas</b>
 $s['legalCope3v2'] = '<b>Os autores não são responsáveis por quaisquer danos</b> causados pelo uso indevido do site';
 $s['win1122h2OrLater'] = 'Windows 11, versão 22H2 ou posterior';
 $s['requiresWindows102004'] = 'Esta compilação requer o uso do Windows 10, versão 2004 ou posterior para que o ISO seja criado corretamente. Scripts para outras plataformas produzirão um ISO corrompido.';
+$s['aria2Opt4'] = 'Criar um pacote de download para os arquivos de atualizações';
 
 //get.php
 $s['listOfFilesFor'] = 'Lista de arquivos para %s'; //Lista de arquivos para o Windows 10 Insider Preview 18890.1000 (rs_prerelease) amd64
@@ -288,6 +289,7 @@ $s['lang_zh-hk'] = 'Chinês (Hong Kong)';
 $s['lang_zh-tw'] = 'Chinês (Tradicional)';
 
 //Channels
+$s['channel_msit'] = 'MSIT';
 $s['channel_canary'] = 'Canal Canary';
 $s['channel_skipAhead'] = 'Seguindo em frente - "Skip Ahead"';
 $s['channel_dev'] = 'Canal Dev';
